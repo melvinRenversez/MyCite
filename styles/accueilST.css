@@ -68,3 +68,7 @@ nav a:hover::after{
        background: rgb(205, 72, 205);
        color: black;
 }
+.content{
+       height: 100%;
+       height: min-content;
+}

@@ -6,7 +6,7 @@ html, body{
        height: 100%;
 }
 body {
-       background: rgb(255, 191, 71);
+       background: rgba(0, 0, 0, 0.90);
        display: flex;
        justify-content: center;
        align-items: center;
