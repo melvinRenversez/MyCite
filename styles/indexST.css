@@ -11,16 +11,73 @@ body {
        justify-content: center;
        align-items: center;
 }
-.white-page{
+.B{
+       position: absolute;
+       width: 15%;
+       align-self: center;  
+       height: 50px;
+       border-radius: 30px;
+       color: white;
+       border: transparent;
+       transition: 1s;
+}
+.Blog{
+       position: relative;
+       width: 100%;
+       height: 100%;
+       border-radius: 30px;
+       z-index: 1000;
+       border: 2px solid black;
+       background: transparent;
+       cursor: pointer;
+       transition: 1s;
+}
+.BLeft{
+       left: 18%;
+}
+.BRight{
+       right: 18%;
+}
+.hidden-btn{
+       opacity: 0;
+}
+.hidden{
+       opacity: 0;
+       position: absolute;
+       top: 0em;
+}
+.visible-button{
+       opacity: 1;
+       position: absolute;
+       top: 45%;
+}
+.hidden-form{
+       opacity: 0;
+       position: absolute;
+       top: -50em;
+}
+.visible-form{
+       opacity: 1;
+       position: relative;
+       top: 0;
+}
+.content-page{
        background: orange;
        position: absolute;
        border-radius: 20px;
        width: 40%;
        height: 650px;
-       left: 5%;
-       transform: translateY(-25px);
+       top: -25px;
+       transition: 1s;
+}
+.page-left{
+       transform: translateX(13%);
+}
+.page-right{
+       transform: translateX(138%);    
 }
 .content{
+       color: white;
        display: flex;
        background: rgb(247, 181, 58);
        border-radius: 20px;
@@ -40,8 +97,9 @@ form{
        display: flex;
        flex-direction: column;
        padding: 30px;
-       border: 2px solid black;
+       border: 2px solid white;
        border-radius: 30px;
+       transition: 1s;
 }
 form h1{
        font-size: 2em;
@@ -63,7 +121,7 @@ form a{
        font-size: 20px;
        text-decoration: none;
        margin-bottom: 70px;
-       color: black;
+       color: white;
 }
 form input{
        height: 40px;
@@ -71,10 +129,15 @@ form input{
        border-left: transparent;
        border-right: transparent;
        background: transparent ;
-       border-bottom: 2px solid black;
+       border-bottom: 2px solid white;
        /* border-radius: 40px; */
        font-size: 16px;
        padding: 0px 5px;
+       color: white;
+       outline: transparent !important;
+}
+input::placeholder{
+       color: white; 
 }
 .input{
        margin-bottom: 30px;
@@ -85,11 +148,13 @@ form input{
 .exp{
        margin-bottom: 10px;
 }
-button{
+.BForm{
        align-self: center;
        width: 70%;
        height: 50px;
        border-radius: 30px;
-       border: 2px solid black;
+       color: white;
+       border: 2px solid white;
        background: transparent;
+       cursor: pointer;
 }

@@ -7,28 +7,31 @@
        <title>acceul</title>
 
        <link rel="stylesheet" href="styles/indexST.css">
+       <script src="java/index.js"></script>
 
 </head>
 <body>
 
        <div class="content">
-              <div class="white-page"></div>
+              <div class="content-page page-left" id="content-page"></div>
+              <div class="B BLeft hidden" id="BLeft"> <button class="Blog" id="Blog-Left" onclick="Button_switch()">Conection</button> </div>
+              <div class="B BRight visible-button" id="BRight"> <button class="Blog" id="Blog-Right" onclick="Button_switch()">S'inscrire</button> </div>
               <div class=" part left">
                      
-                     <form action="">
+                     <form action="" class="Form-left" id="Form-left">
                             <h1 class="conection">Conection</h1>
                             <p>Name</p>
                             <input type="text" placeholder="Name" class="input-co">
                             <p>Password</p>
                             <input type="password" autocomplete="none" placeholder="Password" class="exp">
                             <a href="">mots de passe oublié?</a>
-                            <button>Conection</button>
+                            <button class="BForm">Conection</button>
                      </form>
 
               </div>
               <div class=" part right">
 
-                     <form action="">
+                     <form action="" class="Form-right hidden-form" id="Form-right">
                             <h1 class="inscription">S'inscrire</h1>
                             <p>Name</p>
                             <input type="text" placeholder="Name" class="input">
@@ -36,7 +39,7 @@
                             <input type="text" placeholder="Password" class="input">
                             <p>Confirm Password</p>
                             <input type="text" placeholder="Confirm Password" class="input">
-                            <button>S'inscrire</button>
+                            <button class="BForm">S'inscrire</button>
                      </form>
 
               </div>
