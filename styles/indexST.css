@@ -159,3 +159,13 @@ input::placeholder{
        background: transparent;
        cursor: pointer;
 }
+
+.PASSE{
+       background: red;
+       height: 600px;
+       width: 50px;
+       display: flex;
+       text-decoration: none;
+       color: white;
+       align-items: center;
+}
