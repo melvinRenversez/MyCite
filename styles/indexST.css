@@ -104,6 +104,7 @@ form{
 form h1{
        font-size: 2em;
        align-self: center;
+       color: black;
 }
 .conection{
        margin-top: 10px;
@@ -133,11 +134,11 @@ form input{
        /* border-radius: 40px; */
        font-size: 16px;
        padding: 0px 5px;
-       color: white;
+       color: black;
        outline: transparent !important;
 }
 input::placeholder{
-       color: white; 
+       color: black; 
 }
 .input{
        margin-bottom: 30px;
