@@ -1,0 +1,70 @@
+@font-face {
+       font-family: titre;
+       src: url(../assets/fonts/old_london/OldLondon.ttf);
+}
+*{
+       margin: 0;
+       padding: 0;
+       color: white;
+}
+html, body{
+       height: 100%;
+}
+body{
+       background: linear-gradient(#000, #000250, #9e0098);
+}
+header{
+       padding: 0px 40px;
+       height: 13%;
+       background: black;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border-bottom: 1px solid white;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+}
+header h1{
+       font-size: 60px;
+       font-family: titre;
+}
+nav{
+       display: flex;
+       align-items: center;
+}
+nav a{
+       font-size: 25px;
+       margin: 0px 15px;
+       text-decoration: none;
+       position: relative;
+}
+nav a.link::after{
+       content: '';
+       position: absolute;
+       height: 2px;
+       background: white;
+       width: 100%;
+       left: 0%;
+       bottom: -15px;
+       opacity: 0;
+       transition: 1s;
+}
+
+nav a:hover::after{
+       bottom: -2px;
+       opacity: 1;
+}
+.contact{
+       margin: 0px 0px 0px 30px; 
+       padding: 10px 5px;
+       display: flex;
+       justify-content: center;
+       width: 120px;
+       border-radius: 10px;
+       border: 2px solid rgb(205, 72, 205);
+}
+.contact:hover{
+       transition: 1s;
+       background: rgb(205, 72, 205);
+       color: black;
+}
