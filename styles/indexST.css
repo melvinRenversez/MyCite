@@ -1,0 +1,87 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+html, body{
+       height: 100%;
+}
+body {
+       background: green;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.content{
+       display: flex;
+       background: red;
+       width: 80%;
+       height: 600px;
+}
+.part{
+       width: 50%;
+       position: relative;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.left{
+       background: gold;
+}
+.right{
+       background: blue;
+}
+form{
+       background: red;
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+       padding: 30px;
+       border: 2px solid black;
+       border-radius: 30px;
+}
+form h1{
+       font-size: 2em;
+       align-self: center;
+}
+.conection{
+       margin-top: 10px;
+       margin-bottom: 40px;
+}
+.inscription{
+       margin-bottom: 30px;
+}
+form p{
+       font-size: 1.5em;
+       left: 0;
+       margin-bottom: 10px;
+}
+form a{
+       font-size: 20px;
+       text-decoration: none;
+       margin-bottom: 70px;
+       color: black;
+}
+form input{
+       height: 40px;
+       border-radius: 40px;
+       border: none;
+       font-size: 16px;
+       padding: 0px 5px;
+}
+.input{
+       margin-bottom: 30px;
+}
+.input-co{
+       margin-bottom: 40px;
+}
+.exp{
+       margin-bottom: 10px;
+}
+button{
+       align-self: center;
+       width: 70%;
+       height: 50px;
+       border-radius: 30px;
+       border: 2px solid black;
+       background: transparent;
+}
