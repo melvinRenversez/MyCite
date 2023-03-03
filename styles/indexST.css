@@ -6,16 +6,27 @@ html, body{
        height: 100%;
 }
 body {
-       background: green;
+       background: rgb(255, 191, 71);
        display: flex;
        justify-content: center;
        align-items: center;
 }
+.white-page{
+       background: orange;
+       position: absolute;
+       border-radius: 20px;
+       width: 40%;
+       height: 650px;
+       left: 5%;
+       transform: translateY(-25px);
+}
 .content{
        display: flex;
-       background: red;
+       background: rgb(247, 181, 58);
+       border-radius: 20px;
        width: 80%;
        height: 600px;
+       position: relative;
 }
 .part{
        width: 50%;
@@ -24,14 +35,7 @@ body {
        align-items: center;
        justify-content: center;
 }
-.left{
-       background: gold;
-}
-.right{
-       background: blue;
-}
 form{
-       background: red;
        width: 50%;
        display: flex;
        flex-direction: column;
@@ -63,8 +67,12 @@ form a{
 }
 form input{
        height: 40px;
-       border-radius: 40px;
-       border: none;
+       border-top: transparent;
+       border-left: transparent;
+       border-right: transparent;
+       background: transparent ;
+       border-bottom: 2px solid black;
+       /* border-radius: 40px; */
        font-size: 16px;
        padding: 0px 5px;
 }
