@@ -6,7 +6,7 @@ html, body{
        height: 100%;
 }
 body {
-       background: rgba(0, 0, 0, 0.90);
+       background: linear-gradient(#000, #000250, #9e0098);
        display: flex;
        justify-content: center;
        align-items: center;
@@ -31,6 +31,11 @@ body {
        background: transparent;
        cursor: pointer;
        transition: 1s;
+}
+.Blog:hover{
+       background: black;
+       color: white;
+       border: 2px solid white;
 }
 .BLeft{
        left: 18%;
@@ -62,7 +67,7 @@ body {
        top: 0;
 }
 .content-page{
-       background: orange;
+       background: rgba(255, 255, 255, 0.2);
        position: absolute;
        border-radius: 20px;
        width: 40%;
@@ -79,7 +84,8 @@ body {
 .content{
        color: white;
        display: flex;
-       background: rgb(247, 181, 58);
+       /* background: rgb(247, 181, 58); */
+       background: rgba(255, 255, 255, 0.2);
        border-radius: 20px;
        width: 80%;
        height: 600px;
@@ -117,6 +123,7 @@ form p{
        font-size: 1.5em;
        left: 0;
        margin-bottom: 10px;
+       transform: translateY(0px);
 }
 form a{
        font-size: 20px;
@@ -131,7 +138,6 @@ form input{
        border-right: transparent;
        background: transparent ;
        border-bottom: 2px solid white;
-       /* border-radius: 40px; */
        font-size: 16px;
        padding: 0px 5px;
        color: black;
@@ -158,14 +164,19 @@ input::placeholder{
        border: 2px solid white;
        background: transparent;
        cursor: pointer;
+       transition: 1s;
 }
-
+.BForm:hover{
+       border: 2px solid black;
+       background: white;
+       color: black; 
+}
 .PASSE{
-       background: red;
+       background: transparent;
        height: 600px;
        width: 50px;
        display: flex;
        text-decoration: none;
-       color: white;
+       color: transparent;
        align-items: center;
 }
