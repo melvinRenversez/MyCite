@@ -1,0 +1,129 @@
+@font-face {
+       font-family: titre;
+       src: url(../assets/fonts/old_london/OldLondon.ttf);
+}
+*{
+       margin: 0;
+       padding: 0;
+       color: white;
+}
+html, body{
+       height: 100%;
+}
+body{
+       background: linear-gradient(#000, #000250, #9e0098);
+}
+header{
+       padding: 0px 40px;
+       height: 13%;
+       background: black;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border-bottom: 1px solid white;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+}
+header h1{
+       font-size: 60px;
+       font-family: titre;
+}
+nav{
+       display: flex;
+       align-items: center;
+}
+nav a{
+       font-size: 25px;
+       margin: 0px 15px;
+       text-decoration: none;
+       position: relative;
+}
+nav a.link::after{
+       content: '';
+       position: absolute;
+       height: 2px;
+       background: white;
+       width: 100%;
+       left: 0%;
+       bottom: -15px;
+       opacity: 0;
+       transition: 1s;
+}
+
+nav a:hover::after{
+       bottom: -2px;
+       opacity: 1;
+}
+.deco{
+       margin: -5x 0px 0px 30px; 
+       padding: 10px 10px;
+       display: flex;
+       justify-content: center;
+       width: 120px;
+       border-radius: 10px;
+       border: 2px solid rgb(205, 72, 205);
+}
+.deco:hover{
+       transition: 1s;
+       background: rgb(205, 72, 205);
+       color: black;
+}
+.content{
+       width: 30%;
+       height: 80%;
+       background: rgba(0, 0, 0, 0.5);
+       margin-top: 20px;
+       margin-left: 35%;
+       display: flex;
+       position: relative;
+       align-items: center;
+       justify-content: center;
+       border-radius: 20px;
+}
+form{
+       color: white;
+}
+.Nom{
+       margin-top: 10px;
+       margin-bottom: 30px;
+}
+.Email{
+       margin-bottom: 30px;
+}
+.contact{
+       /* border: 2px gold solid; */
+       width: 90%;
+       height: 95%;
+}
+.input-nom{
+       width: 100%;
+       height: 40px;
+       border: none;
+       background: transparent;
+       border-bottom: 2px solid white;
+       color: white;
+       outline: none;
+       font-size: 18px;
+}
+.input-email{
+       width: 100%;
+       height: 40px;
+       background: transparent;
+       border: none;
+       border-bottom: 2px solid white;
+       outline: none;
+       font-size: 18px;
+}
+.input-text{
+       width: 98%;
+       height: 80%;
+       background: transparent;
+       border: 2px solid white;
+       margin: 10px 0px 0px 0px;
+       resize: none;
+       outline: none;
+       padding: 5px;
+}
+p{
+       font-size: 20px;
+}
