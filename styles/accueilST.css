@@ -54,16 +54,16 @@ nav a:hover::after{
        bottom: -2px;
        opacity: 1;
 }
-.contact{
-       margin: 0px 0px 0px 30px; 
-       padding: 10px 5px;
+.deco{
+       margin: -5x 0px 0px 30px; 
+       padding: 10px 10px;
        display: flex;
        justify-content: center;
        width: 120px;
        border-radius: 10px;
        border: 2px solid rgb(205, 72, 205);
 }
-.contact:hover{
+.deco:hover{
        transition: 1s;
        background: rgb(205, 72, 205);
        color: black;
