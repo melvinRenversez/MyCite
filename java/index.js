@@ -49,3 +49,17 @@ function Button_switch(){
               console.log("error count");
        }
 }
+
+function passe(){
+
+       var name_input = document.getElementById("Name-connection").value;
+       var password_input = document.getElementById("Password-connection").value;
+
+       if(name_input == "pass" && password_input == "pass"){
+              
+       }else{
+              alert("pass")
+              document.location.replace("../html/accueil.html")
+       }
+
+}

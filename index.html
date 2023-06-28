@@ -4,15 +4,16 @@
        <meta charset="UTF-8">
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Conection AngelRings</title>
+       <title>Conection Lexim</title>
 
        <link rel="stylesheet" href="styles/indexST.css">
        <script src="java/index.js"></script>
 
 </head>
 <body>
-
-       <a href="html/accueil.html" class="PASSE">PASSE</a>
+       <div class="abso">
+              <a href="html/accueil.html" class="PASSE">PASSE →</a>
+       </div>
        <div class="content">
               <div class="content-page page-left" id="content-page"></div>
               <div class="B BLeft hidden" id="BLeft"> <button class="Blog" id="Blog-Left" onclick="Button_switch()">Conection</button> </div>
@@ -21,11 +22,11 @@
                      
                      <form action="" class="Form-left" id="Form-left">
                             <h1 class="conection">Conection</h1>
-                            <p>Name</p>
-                            <input type="text" placeholder="Name" class="input-co">
-                            <p>Password</p>
-                            <input type="password" autocomplete="none" placeholder="Password" class="exp">
-                            <a href="">mots de passe oublié?</a>
+                            <p>Nom</p>
+                            <input type="text" placeholder="Nom" class="input-co" id="Name-connection">
+                            <p>Mot de passe</p>
+                            <input type="password" autocomplete="none" placeholder="Mot de passe" class="exp" id="Password-connection">
+                            <a href="" class="mot-passe">mots de passe oublié?</a>
                             <button class="BForm">Conection</button>
                      </form>
 
@@ -34,12 +35,12 @@
 
                      <form action="" class="Form-right hidden-form" id="Form-right">
                             <h1 class="inscription">S'inscrire</h1>
-                            <p>Name</p>
-                            <input type="text" placeholder="Name" class="input">
-                            <p>Password</p>
-                            <input type="text" placeholder="Password" class="input">
-                            <p>Confirm Password</p>
-                            <input type="text" placeholder="Confirm Password" class="input">
+                            <p>Nom</p>
+                            <input type="text" placeholder="Nom" class="input">
+                            <p>Mot de passe</p>
+                            <input type="text" placeholder="Mot de passe" class="input">
+                            <p>confirmation mot de passe</p>
+                            <input type="text" placeholder="confirmation mot de passe" class="input">
                             <button class="BForm">S'inscrire</button>
                      </form>
 
