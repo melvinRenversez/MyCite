@@ -63,10 +63,7 @@ nav a:hover::after{
    margin: 10px 40px !important;
 }
 
-@media screen  and (max-width: 700px) {
+@media screen  and (max-width: 800px) {
 
-   .name h1{
-      color: red !important;
-   }
    
 }
